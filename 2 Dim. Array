@@ -1,0 +1,19 @@
+using System;
+
+namespace ArrayandMatrixAssignment
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[,,] myArray = new int[3, 3, 3]
+            {
+                { {0,0,1}, {0,1,0}, {1,0,0} },
+                { {0,0,1}, {0,1,0}, {1,0,0} },
+                { {0,0,1}, {0,1,0}, {1,0,0} }
+            };
+        }
+
+
+    }
+}
